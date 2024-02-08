@@ -1,0 +1,60 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+After initialization, but before game start.
+  File "game/script.rpy", line 92, in prepare_screen
+    screen game_over:
+  File "game/script.rpy", line 92, in prepare
+    screen game_over:
+  File "game/script.rpy", line 98, in prepare
+    frame:
+  File "game/script.rpy", line 98, in prepare
+    frame:
+  File "game/script.rpy", line 103, in prepare
+    frame:
+  File "game/script.rpy", line 103, in prepare
+    frame:
+  File "game/script.rpy", line 108, in prepare
+    textbutton ("...Ulangi Mini Game...", color "#000000", size 34, xalign 0.5) action Show(chest_puzzle)
+SyntaxError: invalid syntax (game/script.rpy, line 108)
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "D:\renpy-8.0.3-sdk\renpy\bootstrap.py", line 277, in bootstrap
+    renpy.main.main()
+  File "D:\renpy-8.0.3-sdk\renpy\main.py", line 660, in main
+    run(restart)
+  File "D:\renpy-8.0.3-sdk\renpy\main.py", line 95, in run
+    renpy.display.screen.prepare_screens()
+  File "D:\renpy-8.0.3-sdk\renpy\display\screen.py", line 976, in prepare_screens
+    s.ast.prepare_screen()
+  File "game/script.rpy", line 92, in prepare_screen
+    screen game_over:
+  File "game/script.rpy", line 92, in prepare
+    screen game_over:
+  File "game/script.rpy", line 98, in prepare
+    frame:
+  File "game/script.rpy", line 98, in prepare
+    frame:
+  File "game/script.rpy", line 103, in prepare
+    frame:
+  File "game/script.rpy", line 103, in prepare
+    frame:
+  File "game/script.rpy", line 108, in prepare
+    textbutton ("...Ulangi Mini Game...", color "#000000", size 34, xalign 0.5) action Show(chest_puzzle)
+  File "D:\renpy-8.0.3-sdk\renpy\py3analysis.py", line 790, in ast_eval
+    return self.ast_eval_literal(expr)[0]
+  File "D:\renpy-8.0.3-sdk\renpy\py3analysis.py", line 772, in ast_eval_literal
+    expr = py_compile(expr, 'eval', ast_node=True)
+  File "D:\renpy-8.0.3-sdk\renpy\python.py", line 1027, in py_compile
+    raise e
+  File "D:\renpy-8.0.3-sdk\renpy\python.py", line 979, in py_compile
+    raise orig_e
+  File "D:\renpy-8.0.3-sdk\renpy\python.py", line 972, in py_compile
+    tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
+SyntaxError: invalid syntax (game/script.rpy, line 108)
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.0.3.22090809
+mini game heartbeat 1.0
+Thu Feb  8 10:31:33 2024
