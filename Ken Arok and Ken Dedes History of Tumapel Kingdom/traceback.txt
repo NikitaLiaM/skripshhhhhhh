@@ -1,14 +1,14 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 61, in script
+  File "game/script.rpy", line 165, in script
     jump game_over
 ScriptError: could not find label 'game_over'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 61, in script
+  File "game/script.rpy", line 165, in script
     jump game_over
   File "D:\renpy-8.0.3-sdk\renpy\ast.py", line 1974, in execute
     rv = renpy.game.script.lookup(target)
@@ -19,4 +19,4 @@ ScriptError: could not find label 'game_over'.
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.0.3.22090809
 Ken Arok and Ken Dedes History of Tumapel Kingdom 1.0
-Thu Feb  8 13:36:58 2024
+Thu Feb  8 15:42:44 2024
